@@ -1,0 +1,126 @@
+body {
+    background-color: antiquewhite;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+}
+
+.calc-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+}
+
+.calc-header .dark-theme {
+    background: #000;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.calc-header .light-theme {
+    background: #ffffff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.theme {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.input-1 input{
+    width: 335px;
+    height: 50px;
+    border: none;
+    background-color: #8b8b8b;
+}
+
+.all-content {
+    background-color: #eebbbb;
+    width: 340px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.button-r1 {
+    padding: 10px 20px;
+}
+
+.button-r1 button {
+    padding: 10px 27px;
+    background: #ffa500;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-r2 {
+    padding: 10px 20px;
+}
+
+.button-r2 button {
+    padding: 10px 27px;
+    background: #ffa500;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-r3 {
+    padding: 10px 20px;
+}
+
+.button-r3 button {
+    padding: 10px 27px;
+    background: #ffa500;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-r4 {
+    padding: 10px 20px;
+}
+
+.button-r4 button {
+    padding: 10px 27px;
+    background: #ffa500;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-r5 {
+    padding: 10px 20px;
+    margin-left: 40px;
+}
+
+.button-r5 button {
+    padding: 10px 27px;
+    background: #ffa500;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
